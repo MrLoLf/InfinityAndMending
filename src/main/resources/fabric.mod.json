@@ -1,0 +1,26 @@
+{
+    "schemaVersion": 1,
+    "id": "infinityandmending",
+    "name": "Infinity and Mending",
+    "description": "Makes the Infinity Enchant work together with Mending",
+    "license": "MIT",
+    "authors": [
+        "Fabian Roscher"
+    ],
+    "icon": "assets/infinityandmending/icon.png",
+    "side": "universal",
+    "version": "${version}",
+    "environment": "*",
+    "mixins": [
+        "mixins.infinityandmending.common.json"
+    ],
+    "depends": {
+        "fabricloader": ">=0.14.5",
+        "fabric": "*",
+        "minecraft": "1.19.*",
+        "java": ">=17"
+    },
+    "suggests": {
+        "new infinityfix": "*"
+    }
+}
