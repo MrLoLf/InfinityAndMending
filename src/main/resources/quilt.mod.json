@@ -1,0 +1,37 @@
+{
+    "schema_version": 1,
+    "quilt_loader": {
+        "group": "mrlolf.infinityandmending",
+        "id": "infinityandmending",
+        "version": "${version}",
+        "metadata": {
+            "name": "Infinity and Mending",
+            "description": "Makes the Infinity Enchant work together with Mending",
+            "contributors": {
+                "Fabian Roscher": "Owner"
+            },
+            "license": "MIT",
+            "contact": {
+                "issues": "https://github.com/MrLoLf/InfinityAndMending/issues",
+                "sources": "https://github.com/MrLoLf/InfinityAndMending/"
+            },
+            "icon": "assets/infinityandmending/icon.png"
+        },
+        "intermediate_mappings": "net.fabricmc:intermediary",
+        "depends": [
+            {
+                "id": "quilt_loader",
+                "versions": ">=0.17.6-"
+            },
+            {
+                "id": "quilted_fabric_api",
+                "versions": ">=5.0.0-"
+            },
+            {
+                "id": "minecraft",
+                "versions": ">=1.19.3"
+            }
+        ]
+    },
+    "mixin": "infinityandmending.mixins.json"
+}
