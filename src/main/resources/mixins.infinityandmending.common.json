@@ -1,10 +1,10 @@
 {
     "required": true,
     "minVersion": "0.8",
-    "package": "mrlolf.infinityandmending.mixin",
+    "package": "mrlolf.infinityandmending.mixins",
     "compatibilityLevel": "JAVA_21",
     "mixins": [
-        "MixinInfinityEnchantment"
+        "InfinityAndMendingMixin"
     ],
     "injectors": {
         "defaultRequire": 1
